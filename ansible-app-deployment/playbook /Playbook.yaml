@@ -1,1 +1,7 @@
-
+ hosts: all
+  become: true
+  tasks:
+    - name: Create demo file
+      file:
+        path: /home/ec2-user/demo.txt
+        state: touch

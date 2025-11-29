@@ -7,20 +7,22 @@ sudo yum install ansible -y
 
 ansible --version
 
+
 Step 2️⃣: Edit Inventory (Hosts) File
 
 cd /etc/ansible
 
 sudo vi hosts
 
-Purpose                    	Command
 
-Create encrypted playbook   	ansible-vault create secure.yml
+Purpose                                                          	Command
 
-Encrypt existing playbook	    ansible-vault encrypt play.yml
+Create encrypted playbook   	                                ansible-vault create secure.yml
 
-View	                        ansible-vault view play.yml
+Encrypt existing playbook	                                    ansible-vault encrypt play.yml
 
-Edit	                        ansible-vault edit play.yml
+View	                                                        ansible-vault view play.yml
+
+Edit	                                                        ansible-vault edit play.yml
 
 Decrypt	                      ansible-vault decrypt play.yml

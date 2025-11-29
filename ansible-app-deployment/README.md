@@ -14,6 +14,8 @@ cd /etc/ansible
 
 sudo vi hosts
 
+Step 3: Will create a Playbook.yaml file 
+
 
 Purpose                                                          	Command
 

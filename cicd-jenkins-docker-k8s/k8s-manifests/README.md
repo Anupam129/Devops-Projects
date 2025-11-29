@@ -30,6 +30,20 @@ Dockerize the application.
 
 Push Docker images to the registry.
 
+📜 How to Run the Project
+
+Clone the repository
+
+Configure Jenkins credentials
+
+Create a Jenkins pipeline job
+
+Point to this repository
+
+Run the pipeline
+
+Validate deployment via Kubernetes dashboard
+
 Deploy the application on Kubernetes.
 
 Implement rolling updates & rollback functionality.

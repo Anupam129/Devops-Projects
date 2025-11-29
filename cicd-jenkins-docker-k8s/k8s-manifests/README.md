@@ -188,6 +188,7 @@ ________________________________________
 
 
 Step 6: Push Repo to GitHub
+
 cd sample-app
 
 npm install       # generates package-lock.json
@@ -248,6 +249,8 @@ Pipeline stages will run:
 7.	Deploy Stage → Placeholder, you can run the container manually
    
 ________________________________________
+
+
 Step 10: Manual Deployment (Optional)
 
 docker pull anupam129/sample-app:latest

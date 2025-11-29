@@ -36,3 +36,18 @@ Connects to Prometheus as data source
 Prebuilt dashboards available in Grafana Hub
 
 Custom charts, tables, and alerts
+
+
+🛠️ How It Works
+
+Prometheus scrapes metrics from:
+
+Node Exporter
+
+Application endpoints
+
+Data is stored in Prometheus TSDB
+
+Grafana visualizes data using dashboards
+
+Alerts are triggered via Alertmanager
